@@ -122,7 +122,7 @@
     // EDIT THIS URL when your Cloudflare Quick Tunnel address changes.
     const REDIRECT_URL = "https://lawyer-dod-suzuki-original.trycloudflare.com/";
     const secondsEl = document.getElementById("seconds");
-    let seconds = 5;
+    let seconds = 0;
     const interval = window.setInterval(() => {
       seconds -= 1;
       secondsEl.textContent = String(Math.max(0, seconds));
